@@ -194,6 +194,7 @@ hr {
     display: grid;
     grid-template-columns: repeat(3, 60px);
     justify-content: center;
+    justify-items: center;
     padding: 20px;
 }
 
