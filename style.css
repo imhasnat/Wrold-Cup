@@ -75,7 +75,10 @@ h1 {
 /* Middle part */
 
 .middle-container {
+
     display: flex;
+    width: 86%;
+    border-radius: 30px;
     margin-bottom: 20px;
 
 }
@@ -84,8 +87,8 @@ h1 {
 
 .middle-left {
     background-color: #161616;
-    Width: 280px;
-    Height: 270px;
+    max-width: 300px;
+    max-height: 200px;
     border-radius: 10px;
     display: grid;
     grid-template-columns: repeat(1, 200px);
@@ -95,17 +98,19 @@ h1 {
 }
 
 .left-item {
+    margin-left: 10px;
     background-color: white;
     text-align: center;
-    width: 200px;
-    height: 40px;
+    max-width: 180px;
+    max-height: 30px;
     border-radius: 10px;
 }
 
 .left-item a {
     color: black;
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
+    padding: 10px;
 }
 
 .left-item.blog-link {
@@ -126,10 +131,14 @@ h1 {
     margin-left: 20px;
 }
 
+.transfer img {
+    width: 280px;
+}
+
 .transfer {
     border: 1px solid #E8E8E8;
     border-radius: 10px;
-    width: 312px;
+    width: 280px;
     height: 362px;
 }
 
